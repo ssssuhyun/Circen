@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_ciren-01.png">
+    <title>Circen</title>
+    <link rel="stylesheet" href="css/index_style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <!-- Swiper JS -->
+
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <div id="header">
+        <iframe src="iframe/header.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <!-- 배너 시작 -->
+    <div id="banner">
+        <!-- Swiper1 -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="slide_img"><img src="images/3_index_main/banner(1920x660)/banner-1.jpg" alt=""></p>
+                    <div class="swiper_t">
+                        <h1>Our Journey Towards <br>
+                            A Sustainable Future</h1>
+                        <p></p>
+                        <h3>지속가능한 미래를 위한 키르켄의 여정</h3>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <p class="slide_img"><img src="images/3_index_main/banner(1920x660)/banner-2.jpg" alt=""></p>
+                    <div class="swiper_t">
+                        <h1>Eco Kit</h1>
+                        <p></p>
+                        <h3>건강하고 실용적인 제로웨이스트 상품</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <p class="slide_img"><img src="images/3_index_main/banner(1920x660)/banner-3.jpg" alt=""></p>
+                    <div class="swiper_t">
+                        <h1>Eco Blogs</h1>
+                        <p></p>
+                        <h3>매달 챙겨보는 환경소식 </h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <p class="slide_img"><img src="images/3_index_main/banner(1920x660)/banner-4.jpg" alt=""></p>
+                    <div class="swiper_t">
+                        <h1>Eco Crew</h1>
+                        <p></p>
+                        <h3>함께 하는 환경 지키기 크루 활동</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script>
+        // swiper1
+        // var swiper = new Swiper(".mySwiper", {
+        //     loop: true,
+        //     slidesPerView: 1,
+        //     spaceBetween: 30,
+        //     centeredSlides: true,
+        //     autoplay: {
+        //         delay: 4500,
+        //         disableOnInteraction: false,
+        //     },
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //     },
+        //     navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev",
+        //     },
+        // });
+
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            observer: true,
+            observeParents: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <div class="content section1">
+        <h1>our mission</h1>
+        <ul class=mission>
+            <li><img src="images/3_index_main/section1_our_mission(818x518)/our_mission.jpg" alt=""></li>
+            <li>
+                <div class="mission_t">
+                    <h2>"There's no planet B."</h2>
+                    <p>두 번째 지구는 존재하지 않습니다. 우리는 제2의 지구를 찾는 플랜B보다 지금의 지구를 지키는
+                        플랜A를 위해 힘써야 합니다. 지금도 전세계에서는 '두 번째 지구는 없다'고 말하며 환경을 위한
+                        행동을 실천하고 있죠. 일회용품 사용 줄이기, 플라스틱 사용하지 않기, 재활용 하기 등 일상생활
+                        속 금만 신경쓰면 지구를 지킬 수 있는 행동이 수없이 존재합니다. 키르켄은 이러한 활동을 지향
+                        하며 지구에 긍정적인 효과를 미치는 생산과 소비형태를 찾아가고 있습니다.
+                        <br><br>
+                        우리는 반드시 세상을 바꾸는 해답을 찾을 것입니다. 늘 그랬듯이.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- best item -->
+    <div class="content section2">
+
+        <!-- Swiper2 -->
+        <div id="mySwiper2_wrap">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="best_t">
+                    <h1>Best item</h1>
+                    <p class="sub_title">키르켄에서 가장 사랑받는 베스트셀러 제품</p>
+                </div>
+                <div class="swiper-button-next"
+                    style="position: absolute; right: 0; top: 30px;width: 100px; height:60px; background: url(./images/3_index_main/right-arrow.png) no-repeat right;">
+                </div>
+                <!-- <div class="swiper-button-prev" style="position: absolute; right: 0; top: 50%;"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.mySwiper2', {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            observer: true,
+            observeParents: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- new item -->
+    <div class="content section3">
+        <h1>New item</h1>
+        <p class="sub_title">주목해야 할 신제품 추천</p>
+        <div class="new">
+            <div class="new_img">
+                <p class="bold">하루를 풍요롭게 만드는
+                    <br>신규 업로드 상품
+                </p>
+            </div>
+            <p class="more">
+                <a href="javascript:return false;">
+                    All<img src="images/3_index_main/right-arrow.png" alt="store">
+                </a>
+            </p>
+            <div class="item">
+                <div class="slidebanner">
+                    <ul class="bannerbox">
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem1.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">어성초 지성용 샴푸바</p>
+                                    <p>9,500원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem2.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">다회용 순면 키친타월</p>
+                                    <p>9,900원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem3.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">수제 핸드워시 비누 자몽향</p>
+                                    <p>8,500원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem4.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">수분잠금 로션바 라벤더</p>
+                                    <p>15,800원</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem1.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">어성초 지성용 샴푸바</p>
+                                    <p>9,500원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem2.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">다회용 순면 키친타월</p>
+                                    <p>9,900원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem3.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">수제 핸드워시 비누 자몽향</p>
+                                    <p>8,500원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">
+                                <img src="images/3_index_main/section3_New_Item/newitem4.jpg" alt="dw" />
+                                <div class="box_t">
+                                    <p class="bold">수분잠금 로션바 라벤더</p>
+                                    <p>15,800원</p>
+                                </div>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog -->
+    <div class="content section4">
+        <div class="blog_wrap">
+            <div class="blog"></div>
+            <div class="blog_t">
+                <h2>Sustainable Blogs</h2>
+                <p>한 눈에 보는 환경 이슈
+                    <br>전국 환경 운동가들의 심층 분석
+                    <br>생태/환경분야 전문가의 심층 분석
+                    <br>온 오프라인으로 함께 할 수 있는 일까지!
+                    <br>환경에 관한 뉴스를 재밌게 접해보세요
+                </p>
+            </div>
+
+        </div>
+
+        <ul class="article">
+            <li>
+
+                <p><img src="images/3_index_main/section6_sustainable_Blogs(280x220)/blog1_recycle.jpg" alt="">
+                </p>
+                <div class="article_t">
+                    <p>재활용,
+                        <br>이렇게 하세요!
+                    </p>
+                    <a href="javascript:return false;">자세히 보기</a>
+                </div>
+
+
+            </li>
+            <li>
+
+                <p><img src="images/3_index_main/section6_sustainable_Blogs(280x220)/blog2_microplastics.png" alt="">
+                </p>
+                <div class="article_t">
+                    <p>미세플라스틱의
+                        <br>숨겨진 위험성
+                    </p>
+                    <a href="javascript:return false;">자세히 보기</a>
+                </div>
+
+            </li>
+            <li>
+
+                <p><img src="images/3_index_main/section6_sustainable_Blogs(280x220)/blog3_Ocen pollution.jpg" alt="">
+                </p>
+                <div class="article_t">
+                    <p>주인 없는
+                        <br>쓰레기섬을 찾아서
+                    </p>
+                    <a href="javascript:return false;">자세히 보기</a>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- 띠배너 -->
+    <div class="section5">
+        <div class="sec5_cover">
+            <div class="banner_text">
+                <h1>ZERO WASTE</h1>
+                <p>우리 함께 제로웨이스트 할까요?
+                    <br>환경을 위한 나의 라이프스타일 변화의 시작은 Circen이 함께합니다
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Activity -->
+    <div class="content section6">
+        <h1>Activity</h1>
+        <ul class="activity">
+            <li><a href="javascript:return false;"><img
+                        src="images/3_index_main/section8_Activity(280x280)/activity1.jpg" alt=""></a></li>
+            <li><a href="javascript:return false;"><img
+                        src="images/3_index_main/section8_Activity(280x280)/activity2.jpg" alt=""></a></li>
+            <li><a href="javascript:return false;"><img
+                        src="images/3_index_main/section8_Activity(280x280)/activity3.jpg" alt=""></a></li>
+            <li><a href="javascript:return false;"><img
+                        src="images/3_index_main/section8_Activity(280x280)/activity4.jpg" alt=""></a></li>
+        </ul>
+    </div>
+    <!-- Event -->
+    <div class="content section7">
+        <h1>Event</h1>
+        <ul class="event">
+            <li><a href="javascript:return false;"><img src="images/3_index_main/section9_event(585x240)/event1.jpg"
+                        alt=""></a></li>
+            <li><a href="javascript:return false;"><img src="images/3_index_main/section9_event(585x240)/event2.jpg"
+                        alt=""></a></li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <iframe src="iframe/footer.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+
+
+
+
+    <script src="js/index.js"></script>
+    <!-- Initialize Swiper -->
+
+    <!-- swiper2 -->
+    <!-- <script>
+        var swiper = new Swiper(".mySwiper2", {
+            autoHeight: true,
+            spaceBetween: 20,
+            slidesPerView: 5,//한장씩 보임
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,//반복
+            loopAdditionalSlides: 1,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script> -->
+
+</body>
+
+</html>

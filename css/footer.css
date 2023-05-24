@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-style: 'Pretendard-Regular';
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+#footer_wrap {
+    background-color: #3361A5;
+    height: 420px;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.footer .f_left {
+    float: left;
+}
+
+.util_link {
+    margin-bottom: 50px;
+}
+
+.util_link li {
+    float: left;
+}
+
+.util_link li::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.util_link li:nth-child(5)::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.util_link li a {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.util {
+    line-height: 22px;
+}
+
+.f_right {
+    width: 335px;
+    float: right;
+    text-align: left;
+}
+
+.subscribe {
+    margin-bottom: 25px;
+}
+
+.subscribe h1 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.join_bar {
+    width: 335px;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.join_bar input::placeholder {
+    color: #ddd;
+}
+
+.join_bar input {
+    width: 335px;
+    height: 30px;
+    font-size: 12px;
+    padding: 9px 15px;
+    color: #999;
+    border: none;
+    outline: none;
+
+}
+
+.join_bar p {
+    cursor: pointer;
+    padding: 4px 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 96px;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sns {
+    text-align: left;
+}
+
+
+.sns li {
+    float: left;
+}
+
+.sns li a {
+    margin-right: 15px;
+    opacity: 0.5;
+}
+
+.sns li img {
+    width: 28px;
+    height: 28px;
+}
+
+.sns li a:hover {
+    opacity: 1;
+}
+
+.f_middle {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+}
