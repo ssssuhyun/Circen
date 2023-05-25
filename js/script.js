@@ -1,7 +1,12 @@
 $('.submenu').hide();
-$('#gnb li').mouseover(function () {
-    $(this).children('.submenu').stop().slideDown(700)
-});
-$('#gnb li').mouseout(function () {
-    $(this).children('.submenu').stop().fadeOut(100)
-});
+// $('#gnb li').mouseenter(function () {
+//     $(this).children('.submenu').stop().slideDown()
+// });
+// $('#gnb li').mouseleave(function () {
+//     $(this).children('.submenu').stop().fadeOut()
+// });
+$(function(){
+    $('#gnb li').hover(function(){
+      $(this).find('.submenu').slideToggle();
+    })
+  })
