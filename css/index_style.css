@@ -118,29 +118,11 @@ body {
     font-weight: 400;
     line-height: 22px;
     min-width: 1200px;
-    margin-top: 75px;
     color: #2a2a2a;
     overflow-x: hidden;
 }
 
 /* 헤더 */
-#header {
-    height: 395px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-}
-
-#header:hover {
-    z-index: 999;
-}
-
-#header iframe {
-    height: 475px;
-    width: 100%;
-}
 
 
 
