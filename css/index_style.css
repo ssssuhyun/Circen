@@ -76,11 +76,12 @@
 
 body::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
     /* 스크롤바의 너비 */
 }
 
 body::-webkit-scrollbar-thumb {
-    height: 10%;
+    height: 5px;
     /* 스크롤바의 길이 */
     background: #3361A5;
     /* 스크롤바의 색상 */
@@ -117,9 +118,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    min-width: 1200px;
+    min-width: 1280px;
     color: #2a2a2a;
-    /* overflow-x: hidden; */
 }
 
 /* 헤더 */
@@ -214,6 +214,7 @@ body {
 
 .section1 .mission {
     position: relative;
+
 }
 
 .section1 .mission li:nth-child(1) {
@@ -242,8 +243,8 @@ body {
 
 .section1 .mission .mission_t {
     color: #fff;
-    width: 500px;
-    margin: 140px 120px;
+    width: 430px;
+    margin: 120px 130px;
 }
 
 .mission_t h2 {
@@ -255,7 +256,7 @@ body {
 /* best item */
 .section2 {
     height: 500px;
-    overflow: hidden;
+
 }
 
 
@@ -275,7 +276,7 @@ body {
 }
 /* mySwiper2 */
 #mySwiper2_wrap{
-    width: 1320px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
@@ -287,8 +288,7 @@ body {
 }
 
 .mySwiper2.swiper {
-    width: 100%;
-   overflow: hidden;
+    width: 1200px;
    padding-top: 80px;
   }
 
@@ -363,7 +363,7 @@ ul li:hover .cover {
     position: relative;
     height: 260px;
     width: 800px;
-    padding-top: 20px;
+    padding-top: 70px;
     overflow: hidden;
     /* background-color: #bcdefd; */
 }
@@ -372,6 +372,7 @@ ul li:hover .cover {
     position: absolute;
     margin: 0;
     padding: 0;
+    height: 360px;
 }
 
 
@@ -385,7 +386,7 @@ ul li:hover .cover {
 .slidebanner .bannerbox .box_t {
     text-align: center;
     box-sizing: border-box;
-    padding: 23px 0;
+    padding: 20px 0;
 }
 
 .bold {
@@ -411,6 +412,7 @@ ul li:hover .cover {
 .section4 {
     height: 500px;
     position: relative;
+    overflow: hidden;
 }
 
 .blog {
@@ -419,15 +421,15 @@ ul li:hover .cover {
     background-color: #3361A5;
     position: absolute;
     top: 180px;
-    left: -360px;
+    left: -220px;
     border-radius: 0 250px 250px 0;
 }
 
 .blog_t {
     color: #fff;
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 52%;
+    left: 90px;
 
 }
 
@@ -529,10 +531,12 @@ ul li:hover .cover {
 .activity li {
     width: 280px;
     height: 280px;
-    margin-right: 20px;
+    margin-right: 26px;
     float: left;
 }
-
+.activity li:nth-child(4){
+    margin: 0;
+}
 .activity li img {
     width: 100%;
 }
