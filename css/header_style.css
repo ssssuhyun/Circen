@@ -138,13 +138,6 @@ body {
     border-radius: 37px;
 }
 
-#gnb>li:hover>.submenu {
-    display: block;
-}
-
-#gnb>li:hover>.submenu {
-    display: block;
-}
 
 .submenu h3 {
     padding-bottom: 20px;
