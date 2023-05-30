@@ -124,8 +124,7 @@ body {
 
 /* 헤더 */
 
-
-
+/* 배너 */
 #banner {
     position: relative;
     z-index: 888;
@@ -167,7 +166,6 @@ body {
 }
 
 .mySwiper .swiper_t h1 {
-
     font-size: 32px;
     line-height: 40px;
     font-weight: 600;
@@ -244,7 +242,7 @@ body {
 .section1 .mission .mission_t {
     color: #fff;
     width: 430px;
-    margin: 120px 130px;
+    margin: 120px 0 0 120px;
 }
 
 .mission_t h2 {
@@ -276,8 +274,9 @@ body {
 }
 /* mySwiper2 */
 #mySwiper2_wrap{
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
     position: relative;
 }
 .best_t {
@@ -288,8 +287,9 @@ body {
 }
 
 .mySwiper2.swiper {
-    width: 1200px;
+    width: 100%;
    padding-top: 80px;
+   overflow: hidden;
   }
 
   .mySwiper2  .swiper-slide {
@@ -410,6 +410,7 @@ ul li:hover .cover {
 
 /* Blogs */
 .section4 {
+    width: 1200px;
     height: 500px;
     position: relative;
     overflow: hidden;
