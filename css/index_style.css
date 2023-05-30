@@ -422,7 +422,7 @@ ul li:hover .cover {
     background-color: #3361A5;
     position: absolute;
     top: 180px;
-    left: -220px;
+    left: -290px;
     border-radius: 0 250px 250px 0;
 }
 
@@ -430,7 +430,7 @@ ul li:hover .cover {
     color: #fff;
     position: absolute;
     top: 52%;
-    left: 90px;
+    left: 55px;
 
 }
 
@@ -439,28 +439,30 @@ ul li:hover .cover {
 }
 
 .article {
-    height: 410px;
+    height: 400px;
     float: right;
     position: absolute;
     z-index: 999;
     bottom: 50px;
-    right: 0;
+    right: 15px;
 }
 
 .article li {
-    width: 280px;
+    width: 260px;
     height: 400px;
     float: left;
     text-align: center;
     background-color: #fff;
     margin-right: 22px;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .article li:nth-child(3) {
     margin-right: 0;
 }
-
+.article li img{
+    width: 100%;
+}
 .article_t {
     padding: 30px;
 }
