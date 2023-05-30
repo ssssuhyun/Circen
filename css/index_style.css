@@ -242,7 +242,8 @@ body {
 .section1 .mission .mission_t {
     color: #fff;
     width: 430px;
-    margin: 120px 0 0 120px;
+    margin-top: 140px;
+    margin-left: 120px;
 }
 
 .mission_t h2 {
