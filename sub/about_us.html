@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,129 +8,409 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_ciren01.png">
     <title>Ciren_About Us</title>
     <link rel="stylesheet" href="../css/about_us.css">
+    <link rel="stylesheet" href="../css/top_banner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
+
 <body>
-     <!-- 헤더 -->
-        <!-- header 시작 -->
-        <div class="header_wrap">
-            <div id="header">
-                <h1 class="logo">
-                    <a href="../index.html">
-                        <img src="../images/1_header/logo_text.png">
-                    </a>
-                </h1>
-                <!-- 메뉴 -->
-    
-                <!-- 헤더 링크 -->
-                <ul class="top_link">
+
+    <!-- 헤더 시작-->
+    <div class="header-banner">
+        <div class="top-banner">
+            <p>크루 가입시 전제품 10% 할인</p>
+            <button id="btn-banner-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+    </div>
+    <script src="../js/top_banner.js"></script>
+    <script src="https://kit.fontawesome.com/241c21be21.js" crossorigin="anonymous"></script>
+    <div class="header_wrap">
+
+        <div id="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/1_header/logo_text.png">
+                </a>
+            </h1>
+            <!-- 메뉴 -->
+
+            <!-- 헤더 링크 -->
+            <ul class="top_link">
+                <li>
+                    <a href="#"><img src="../images/1_header/1icon_search.png" alt=""></a>
+                </li>
+                <li><a href="#"><img src="../images/1_header/2icon_my.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/1_header/3icon_cart.png" alt=""></a></li>
+            </ul>
+            <div id="gnb_wrap">
+                <ul id="gnb">
                     <li>
-                        <a href="#"><img src="../images/1_header/1icon_search.png" alt=""></a>
-    
-    
+                        <a href="#">ABOUT</a>
+                        <div class="submenu">
+                            <div class="submenu_inner">
+                                <div class="submenu_text">
+                                    <h3 class="submenu_title">ABOUT</h3>
+                                    <ul class="submenu_link">
+                                        <li><a href="about_zw.html">zero waste</a></li>
+                                        <li><a href="about_us.html">us</a></li>
+                                    </ul>
+                                </div>
+                                <p class="submenu_photo">
+                                    <img src="../images/1_header/submenu_img1.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+
                     </li>
-                    <li><a href="#"><img src="../images/1_header/2icon_my.png" alt=""></a></li>
-                    <li><a href="#"><img src="../images/1_header/3icon_cart.png" alt=""></a></li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="submenu">
+                            <div class="submenu_inner">
+                                <div class="submenu_text">
+                                    <h3 class="submenu_title">STORE</h3>
+                                    <ul class="submenu_link">
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                                <p class="submenu_photo">
+                                    <img src="../images/1_header/submenu_img1.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="Q&A.html">COMMUNITY</a>
+                        <div class="submenu">
+                            <div class="submenu_inner">
+                                <div class="submenu_text">
+                                    <h3 class="submenu_title">COMMUNITY</h3>
+                                    <ul class="submenu_link ">
+                                        <li><a href="#">Q&A</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                    </ul>
+                                </div>
+                                <p class="submenu_photo">
+                                    <img src="../images/1_header/submenu_img1.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="contect.html">CONTECT</a>
+                        <div class="submenu">
+                            <div class="submenu_inner">
+                                <div class="submenu_text">
+                                    <h3 class="submenu_title">CONTECT</h3>
+                                    <ul class="submenu_link">
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                                <p class="submenu_photo">
+                                    <img src="../images/1_header/submenu_img1.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="event.html">EVENT</a>
+                        <div class="submenu">
+                            <div class="submenu_inner">
+                                <div class="submenu_text">
+                                    <h3 class="submenu_title">EVENT</h3>
+                                    <ul class="submenu_link">
+                                        <li><a href="#">진행중인 이벤트</a></li>
+                                        <li><a href="#">종료된 이벤트</a></li>
+                                    </ul>
+                                </div>
+                                <p class="submenu_photo">
+                                    <img src="../images/1_header/submenu_img1.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-                <div id="gnb_wrap">
-                    <ul id="gnb">
-                        <li>
-                            <a href="#">ABOUT</a>
-                            <div class="submenu">
-                                <div class="submenu_inner">
-                                    <div class="submenu_text">
-                                        <h3 class="submenu_title">ABOUT</h3>
-                                        <ul class="submenu_link">
-                                            <li><a href="#">zero waste</a></li>
-                                            <li><a href="about_us.html">us</a></li>
-                                        </ul>
-                                    </div>
-                                    <p class="submenu_photo">
-                                        <img src="../images/1_header/submenu_img1.jpg" alt="">
-                                    </p>
-                                </div>
-                            </div>
-    
-                        </li>
-                        <li>
-                            <a href="#">STORE</a>
-                            <div class="submenu">
-                                <div class="submenu_inner">
-                                    <div class="submenu_text">
-                                        <h3 class="submenu_title">STORE</h3>
-                                        <ul class="submenu_link">
-                                            <li><a href="#"></a></li>
-                                            <li><a href="#"></a></li>
-                                        </ul>
-                                    </div>
-                                    <p class="submenu_photo">
-                                        <img src="../images/1_header/submenu_img1.jpg" alt="">
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">COMMUNITY</a>
-                            <div class="submenu">
-                                <div class="submenu_inner">
-                                    <div class="submenu_text">
-                                        <h3 class="submenu_title">COMMUNITY</h3>
-                                        <ul class="submenu_link ">
-                                            <li><a href="#">Q&A</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                        </ul>
-                                    </div>
-                                    <p class="submenu_photo">
-                                        <img src="../images/1_header/submenu_img1.jpg" alt="">
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">CONTECT</a>
-                            <div class="submenu">
-                                <div class="submenu_inner">
-                                    <div class="submenu_text">
-                                        <h3 class="submenu_title">CONTECT</h3>
-                                        <ul class="submenu_link">
-                                            <li><a href="#"></a></li>
-                                            <li><a href="#"></a></li>
-                                        </ul>
-                                    </div>
-                                    <p class="submenu_photo">
-                                        <img src="../images/1_header/submenu_img1.jpg" alt="">
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">EVENT</a>
-                            <div class="submenu">
-                                <div class="submenu_inner">
-                                    <div class="submenu_text">
-                                        <h3 class="submenu_title">EVENT</h3>
-                                        <ul class="submenu_link">
-                                            <li><a href="#">진행중인 이벤트</a></li>
-                                            <li><a href="#">종료된 이벤트</a></li>
-                                        </ul>
-                                    </div>
-                                    <p class="submenu_photo">
-                                        <img src="../images/1_header/submenu_img1.jpg" alt="">
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-    
-                </div>
             </div>
         </div>
-        <!-- 해더 끝 -->
-        <!-- 배너 시작 -->
-        <div id="banner">
-            <img src="../images/4_sub_aboutUs/" alt="">
+    </div>
+    <!-- 해더 끝 -->
+
+
+    <!-- 배너 시작 -->
+    <div id="banner">
+        <div class="img_wrap">
         </div>
+        <div class="cover">
+            <p>About</p>
+            <p class="dash"></p>
+        </div>
+    </div>
+    <!-- 배너 끝 -->
+
+    <!-- who we are 시작 -->
+    <div id="about_content">
+        <div class="section intro">
+            <h1><span style="font-weight: 700;">who</span> <span style="font-weight: 300;">we are</span> </h1>
+            <div><img src="../images/4_sub_aboutUs/../4_sub_aboutUs/2whoweare.jpg" alt=""></div>
+            <div><img src="../images/4_sub_aboutUs/1whoweare.jpg" alt=""></div>
+            <div class="intro_t">
+                <p class="intro_text">
+                    키르켄이라는 이름은 순환, 원이라는 뜻의 라틴어에서 유래합니다.
+                    <br><br>
+                    아름다운 우리의 지구를 깨끗하게 지키고자 하는 마음을
+                    <br> 담은 제로웨이스트 브랜드로, 환경을 오염시키는 성분 대신
+                    <br> 자연으로부터 얻은 지속가능한 재료로 비닐과 플라스틱을
+                    <br> 줄이는 것은 물론, 환경에 대한 소식을 전해드려 우리 모두가
+                    <br> 지구를 생각하도록 선순환하는 고리를 만들어 갑니다.
+                </p>
+            </div>
+        </div>
+        <!-- who we are 끝-->
+
+
+        <!-- LOGO 시작 -->
+        <div class="sectoion logo">
+            <h1>LOGO</h1>
+            <ul class="icon">
+                <li>
+                    <p><img src="../images/4_sub_aboutUs/logo_1.png" alt="earth"></p>
+                    <p>지구</p>
+                </li>
+                <li>
+                <li>
+                    <p><img src="../images/4_sub_aboutUs/logo_2.png" alt="wave"></p>
+                    <p>파도</p>
+                </li>
+                <li>
+                <li>
+                    <p><img src="../images/4_sub_aboutUs/logo_3.png" alt="harmony"></p>
+                    <p>공존, 조화</p>
+                </li>
+                <li>
+                <li>
+                    <p><img src="../images/4_sub_aboutUs/logo_4.png" alt="Circen"></p>
+                    <p>Circen</p>
+                </li>
+            </ul>
+            <p class="logo_t">지구와 자연을 엮는 동그란 고리를 표현하기 위해 파도가 원을 따라 넘실거리는 모습에두 가지 색을 조합해 공존과 조화를 나타내었습니다.
+                <br>폰트는 둥근 모양이지만 끝부분이 각진 세리프체를 선정해 차분한 이미지와 신뢰감있는 자연주의 브랜드의 이미지를 전합니다.
+            </p>
+            <p class="logo_box logo1"><img src="../images/4_sub_aboutUs/logo_5.png" alt=""></p>
+            <p class="logo_box logo2"><img src="../images/4_sub_aboutUs/logo_6.png" alt=""></p>
+        </div>
+        <!-- LOGO 끝 -->
+
+
+        <!-- COLOR 시작 -->
+        <div class="section">
+            <h1>COLOR</h1>
+            <div class="color">
+                <h2>MAIN</h2>
+                <h2>SUB</h2>
+
+                <div class="gradient"><img src="../images/4_sub_aboutUs/color1.png" alt=""></div>
+
+                <ul class="color_palette">
+                    <li>
+                        <p class="circle main"></p>
+                        <br>
+                        C77 M60 Y0 K0
+                    </li>
+                    <li>
+                        <p class="circle sub"></p>
+                        <br>
+                        C35 M12 Y2 K0
+                    </li>
+                    <li>
+                        <p class="circle sub2"></p>
+                        <br>
+                        C6 M4 Y4 K0
+                    </li>
+                </ul>
+                <p class="color_t">조화, 믿음, 신뢰, 정의, 평화 등을 상징하는파란 색을 메인으로 명도가 올라간 하늘색과 깨끗함을 나타내는 <br>
+                    밝은 그레이를 서브로 정하여 키르켄이 추구하는 깨끗한 바다를 상징적으로 보여줍니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- COLOR끝 -->
+
+
+    <!-- What is zero waste 시작 -->
+    <div class="content_wrap">
+        <div class="zw">
+            <h1>what is zero waste</h1>
+            <ul>
+                <li class="left">
+                    <div class="zw_img1"><img src="../images/4_sub_aboutUs/zero_waste_01.jpg" alt=""></div>
+                    <div class="zw_img2"><img src="../images/4_sub_aboutUs/zero_waste_02.jpg" alt=""></div>
+                    <p class="">기후위기 대응 골든타임은 10년 남았습니다.
+                        <br>
+                        우리는 지구에 방치된 쓰레기가 얼마나 많은지 알고 있습니다.
+                        <br>
+                        우리는 우리가 만든 쓰레기가 어디로 가는지 또한 알고있죠.
+                        <br>
+                        이런 사실을 알고는 있지만 막상 실천은 하고 있지 않습니다.
+                        <br>
+                        이제는 생각이 아니라 행동으로 변화시켜야 합니다.
+                        <br><br>
+                        그 변화를 키르켄이 함께 합니다.
+                    </p>
+                </li>
+                <li class="right">
+                    <h4>제로웨이스트는 모든 제품이 재사용될 수 있도록 장려하며 폐기물을
+                        방지하는데 초점을 맞춘 원칙입니다.
+                    </h4> <br>
+                    <p>사람은 죽어서 흙으로 돌아간다지만 쓰레기는 전혀 그렇지 않죠. 지구의
+                        쓰레기를 줄이는 제로웨이스트 제품들이 쓰레기 매립지나 소각장, 바다에
+                        버려지는 쓰레기가 되지 않도록 하는 것이 목표인데,현재 플라스틱의 9%
+                        만이 실제로 재활용되고 있습니다.</p>
+                    <div class="img_wrap">
+                        <img src="../images/4_sub_aboutUs/zero_waste_03.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- What is zero waste 끝 -->
+
+    <!-- how to zero waste 시작 -->
+    <div class="section how">
+        <h1> <span style="font-weight: 40px; font-weight: bold;">How</span>
+            <span style="font-weight: 400;">to zero waste</span>
+        </h1>
+        <ul>
+            <li>
+                <p><img src="../images/4_sub_aboutUs/3how_01.jpg" alt=""></p>
+                거절하기
+            </li>
+            <li>
+                <p><img src="../images/4_sub_aboutUs/3how_02.jpg" alt=""></p>
+                줄이기
+            </li>
+            <li>
+                <p><img src="../images/4_sub_aboutUs/3how_03.jpg" alt=""></p>
+                재활용
+            </li>
+            <li>
+                <p><img src="../images/4_sub_aboutUs/3how_04.jpg" alt=""></p>
+                재사용
+            </li>
+            <li>
+                <p><img src="../images/4_sub_aboutUs/3how_05.jpg" alt=""></p>
+                썩히기
+            </li>
+        </ul>
+    </div>
+    <!-- how to zero waste 끝 -->
+
+    <div class="section czw">
+        <h1>Circen's zero waste</h1>
+        <div class="czw_photo">
+            <ul class="ul_top">
+                <li><img src="../images/4_sub_aboutUs/4circen's_01.jpg" alt=""></li>
+
+                <li><img src="../images/4_sub_aboutUs/4circen's_02.jpg" alt=""></li>
+                <li >
+                    <p>종이 완충재로 줄인 비닐 완충재</p>
+                    <p class="font_style">200개</p>
+                </li>
+                <li>
+                    <p>박스 재사용으로 줄인 종이 박스</p>
+                    <p class="font_style">6,300개</p>
+                </li>
+            </ul>
+            <ul class="ul_bottom">
+                <li><img src="../images/4_sub_aboutUs/4circen's_04.jpg" alt=""></li>
+                <li><img src="../images/4_sub_aboutUs/4circen's_03.jpg" alt=""></li>
+
+                <li>
+                    <p class="font_style">250개</p>
+                    <p>테이프 없는 박스로 줄인 비닐 테이프</p>
+                </li>
+                <li>
+                    <p class="font_style">204개</p>
+                    <p>리필 스테이션을 통해 줄인 플라스틱 용기</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <div class="f_left">
+                <ul class="util_link">
+                    <li><a href="">about</a></li>
+                    <li><a href="">store</a></li>
+                    <li><a href="">community</a></li>
+                    <li><a href="">contect</a></li>
+                    <li><a href="">event</a></li>
+                </ul>
+                <ul class="util">
+                    <li>부산광역시 중구 중앙대로 26 다원중앙타워 10층</li>
+                    <li>사업자등록번호 335-84-97411</li>
+                    <li>대표이사 김수현</li>
+                    <li>TEL 051-245-1650/FAX 051-247-6173</li>
+                </ul>
+            </div>
+            <div class="f_right">
+                <div class="subscribe">
+                    <h1>NEWS LETTER</h1>
+                    <div class="join_bar">
+                        <form action="">
+                            <input type="search" placeholder="E-mail">
+                        </form>
+                        <p>JOIN</p>
+                    </div>
+                    <p>Subdscribe to Newsletter
+                        <br>업데이트된 뉴스레터를 바로 볼 수 있어요!
+                    </p>
+                </div>
+                <ul class="sns">
+                    <li><a href="#"><img src="../images/2_footer/sns(28x28)/sns1_instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="../images/2_footer/sns(28x28)/sns2_facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="../images/2_footer/sns(28x28)/sns3_twitter.png" alt=""></a></li>
+                    <li><a href="#"><img src="../images/2_footer/sns(28x28)/sns4_youtube.png" alt=""></a></li>
+                    <li><a href="#"><img src="../images/2_footer/sns(28x28)/sns5_tiktok.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="f_middle">
+            <p>© 2023 Circen. All rights reserved.</p>
+        </div>
+
+
+        <!-- 탑버튼 -->
+        <button id="btn"><img src="../images/up-arrow-angle.png" alt=""></button>
+        <!-- js -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $('#btn').hide();
+            $(window).scroll(function () {
+                var height = $(window).scrollTop();
+                if (height > 100) {
+                    $('#btn').fadeIn()
+                } else {
+                    $('#btn').fadeOut()
+                }
+            });
+            $('#btn').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        </script>
         <!-- js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="../js/script.js"></script>
+        <!-- <script src="../js/text_vedio.js"></script> -->
+        <script src="../js/scroll.js"></script>
+
 </body>
+
 </html>
