@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=1280">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_ciren01.png">
     <title>Ciren_store</title>
+    <link rel="stylesheet" href="../css/Q&A_style.css">
     <link rel="stylesheet" href="../css/top_banner.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
@@ -19,6 +20,7 @@
     <div class="header-banner">
         <div class="top-banner">
             <p>크루 가입시 전제품 10% 할인</p>
+            <button id="btn-banner-close">
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
@@ -399,6 +401,7 @@
     <!-- 탑버튼 -->
     <button id="btn"><img src="../images/up-arrow-angle.png" alt=""></button>
     <!-- js -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $('#btn').hide();
         $(window).scroll(function () {
