@@ -188,14 +188,13 @@ ul {
     text-align: left;
 }
 
-
 .sns li {
     float: left;
 }
 
 .sns li a {
-    margin-right: 15px;
-    opacity: 0.5;
+    margin-right: 40px;
+    opacity: 0.3;
 }
 
 .sns li img {
@@ -205,6 +204,7 @@ ul {
 
 .sns li a:hover {
     opacity: 1;
+    transition: 0.8s;
 }
 
 .f_middle {

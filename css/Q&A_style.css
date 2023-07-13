@@ -410,3 +410,9 @@ body {
 	font-size: 20px;
 	font-weight: 800;
 }
+
+.cs_wrap{
+    display: fixed;
+    bottom: 10px;
+    left: 10px;
+}

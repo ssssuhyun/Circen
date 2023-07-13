@@ -364,7 +364,7 @@ h1 {
 }
 .logo_t{
     padding: 50px 5px 80px;
-    font-size: 16px;
+    font-size: 13px;
 }
 .logo_box{
     display: inline-block;
@@ -478,7 +478,7 @@ h1 {
 .zw ul li:nth-child(1){
     width: 660px;
     position: relative;
-    padding-left: 60px;
+    padding-left: 20px;
     float: left;
 }
 .zw ul li:nth-child(1) p{
@@ -502,6 +502,7 @@ h1 {
 }
 
 .zw ul li:nth-child(2){
+    padding-right: 25px;
     width: 480px;
     float: right;
 }

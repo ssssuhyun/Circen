@@ -487,6 +487,7 @@ ul li:hover .cover {
 .article_t a:hover {
     background-color: #3361A5;
     color: #fff;
+    transition: 0.3s;
 }
 
 
