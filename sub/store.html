@@ -398,30 +398,31 @@
         </div>
 
 
-    <!-- 탑버튼 -->
-    <button id="btn"><img src="../images/up-arrow-angle.png" alt=""></button>
+        <!-- 탑버튼 -->
+        <button id="btn"><img src="../images/up-arrow-angle.png" alt=""></button>
+        <!-- js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#btn').hide();
+            $(window).scroll(function () {
+                var height = $(window).scrollTop();
+                if (height > 100) {
+                    $('#btn').fadeIn()
+                } else {
+                    $('#btn').fadeOut()
+                }
+            });
+            $('#btn').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        </script>
+
     <!-- js -->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>
-        $('#btn').hide();
-        $(window).scroll(function () {
-            var height = $(window).scrollTop();
-            if (height > 100) {
-                $('#btn').fadeIn()
-            } else {
-                $('#btn').fadeOut()
-            }
-        });
-        $('#btn').click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-        });
-    </script>
-    <!-- js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="../js/script.js"></script>
-    <!-- <script src="../js/text_vedio.js"></script> -->
-    <script src="../js/scroll.js"></script>
+   
+   
 
 </body>
