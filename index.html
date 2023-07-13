@@ -8,7 +8,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_ciren01.png">
     <title>Circen</title>
     <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header_style.css">
+    <link rel="stylesheet" href="../css/top_banner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <script src="js/jquery-3.6.4.min.js"></script>
@@ -19,7 +22,18 @@
 
 <body>
     <!-- 헤더 -->
-        <!-- header 시작 -->
+    <div class="header-banner">
+        <div class="top-banner">
+            <p>크루 가입시 전제품 10% 할인</p>
+            <button id="btn-banner-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+    </div>
+    <script src="js/top_banner.js"></script>
+    <script src="https://kit.fontawesome.com/241c21be21.js" crossorigin="anonymous"></script>
+    <!-- header 시작 -->
     <div class="header_wrap">
         <div id="header">
             <h1 class="logo">
@@ -33,8 +47,8 @@
             <ul class="top_link">
                 <li>
                     <a href="#"><img src="images/1_header/1icon_search.png" alt=""></a>
-                    
 
+                                                                                                                                                                                                                                                                                                                                                            
                 </li>
                 <li><a href="#"><img src="images/1_header/2icon_my.png" alt=""></a></li>
                 <li><a href="#"><img src="images/1_header/3icon_cart.png" alt=""></a></li>
@@ -42,14 +56,14 @@
             <div id="gnb_wrap">
                 <ul id="gnb">
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="sub/about_us.html">ABOUT</a>
                         <div class="submenu">
                             <div class="submenu_inner">
                                 <div class="submenu_text">
                                     <h3 class="submenu_title">ABOUT</h3>
                                     <ul class="submenu_link">
-                                        <li><a href="#">zero waste</a></li>
-                                        <li><a href="sub/about_us.html">us</a></li>
+                                        <li>zero waste</li>
+                                        <li>us</li>
                                     </ul>
                                 </div>
                                 <p class="submenu_photo">
@@ -60,31 +74,31 @@
 
                     </li>
                     <li>
-                        <a href="#">STORE</a>
+                        <a href="sub/store.html">STORE</a>
                         <div class="submenu">
                             <div class="submenu_inner">
                                 <div class="submenu_text">
                                     <h3 class="submenu_title">STORE</h3>
                                     <ul class="submenu_link">
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
+                                        <li></li>
+                                        <li></li>
                                     </ul>
                                 </div>
                                 <p class="submenu_photo">
-                                    <img src="images/1_header/submenu_img1.jpg" alt="">
+                                    <img src="images/1_header/submenu_img2.jpg" alt="">
                                 </p>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">COMMUNITY</a>
+                        <a href="sub/Q&A.html">COMMUNITY</a>
                         <div class="submenu">
                             <div class="submenu_inner">
                                 <div class="submenu_text">
                                     <h3 class="submenu_title">COMMUNITY</h3>
                                     <ul class="submenu_link ">
-                                        <li><a href="#">Q&A</a></li>
-                                        <li><a href="#">Blog</a></li>
+                                        <li>Q&A</li>
+                                        <li>문의사항</li>
                                     </ul>
                                 </div>
                                 <p class="submenu_photo">
@@ -94,31 +108,31 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">CONTECT</a>
+                        <a href="sub/contect.html">CONTECT</a>
                         <div class="submenu">
                             <div class="submenu_inner">
                                 <div class="submenu_text">
                                     <h3 class="submenu_title">CONTECT</h3>
                                     <ul class="submenu_link">
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
+                                        <li></li>
+                                        <li></li>
                                     </ul>
                                 </div>
                                 <p class="submenu_photo">
-                                    <img src="images/1_header/submenu_img1.jpg" alt="">
+                                    <img src="images/1_header/submenu_img4.jpg" alt="">
                                 </p>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">EVENT</a>
+                        <a href="../sub/event.html">EVENT</a>
                         <div class="submenu">
                             <div class="submenu_inner">
                                 <div class="submenu_text">
-                                    <h3 class="submenu_title">EVENT</h3>
+                                    <h3 class="submenu_title"> EVENT</h3>
                                     <ul class="submenu_link">
-                                        <li><a href="#">진행중인 이벤트</a></li>
-                                        <li><a href="#">종료된 이벤트</a></li>
+                                        <li>진행중인 이벤트</li>
+                                        <li>종료된 이벤트</li>
                                     </ul>
                                 </div>
                                 <p class="submenu_photo">
@@ -236,7 +250,7 @@
                     <h2>"There's no planet B."</h2>
                     <p>두 번째 지구는 존재하지 않습니다. 우리는 제2의 지구를 찾는 플랜B보다 지금의 지구를 지키는
                         플랜A를 위해 힘써야 합니다. 지금도 전세계에서는 '두 번째 지구는 없다'고 말하며 환경을 위한
-                        행동을 실천하고 있죠.  키르켄은 이러한 활동을 지향하며 지구에 긍정적인 효과를 미치는 생산과 
+                        행동을 실천하고 있죠. 키르켄은 이러한 활동을 지향하며 지구에 긍정적인 효과를 미치는 생산과
                         소비형태를 찾아가고 있습니다.
                         <br><br>
                         우리는 반드시 세상을 바꾸는 해답을 찾을 것입니다. 늘 그랬듯이.
@@ -254,63 +268,75 @@
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <a href="">
-                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem3.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem2.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/long/bestitem2.jpg"
+                                alt="">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="">
-                        <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg" alt="">
+                        <a href="javascript:return false;">
+                            <img src="images/3_index_main/section2_Best_Item(224x325)(224x250)/short/bestitem1.jpg"
+                                alt="">
                         </a>
                     </div>
 
@@ -359,7 +385,7 @@
                 </p>
             </div>
             <p class="more">
-                <a href="javascript:return false;">
+                <a href="sub/store.html">
                     All<img src="images/3_index_main/right-arrow.png" alt="store">
                 </a>
             </p>
@@ -539,19 +565,78 @@
         </ul>
     </div>
     <!-- footer -->
-    <div id="footer">
-        <iframe src="iframe/footer.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-    </div>
+    <div id="footer_wrap">
+        <div class="footer">
+            <div class="f_left">
+                <ul class="util_link">
+                    <li><a href="sub/about_us.html">about</a></li>
+                    <li><a href="sub/store.html">store</a></li>
+                    <li><a href="sub/Q&A.html">community</a></li>
+                    <li><a href="sub/contect.html">contect</a></li>
+                    <li><a href="sub/event.html">event</a></li>
+                </ul>
+                <ul class="util">
+                    <li>부산광역시 중구 중앙대로 26 다원중앙타워 10층</li>
+                    <li>사업자등록번호 335-84-97411</li>
+                    <li>대표이사 김수현</li>
+                    <li>TEL 051-245-1650/FAX 051-247-6173</li>
+                </ul>
+            </div>
+            <div class="f_right">
+                <div class="subscribe">
+                    <h1>NEWS LETTER</h1>
+                    <div class="join_bar">
+                        <form action="">
+                            <input type="search" placeholder="E-mail">
+                        </form>
+                        <p>JOIN</p>
+                    </div>
+                    <p>Subdscribe to Newsletter
+                        <br>업데이트된 뉴스레터를 바로 볼 수 있어요!
+                    </p>
+                </div>
+                <ul class="sns">
+                    <li><a href="javascript:return false;"><img src="../images/2_footer/sns(28x28)/sns1_instagram.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/2_footer/sns(28x28)/sns2_facebook.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/2_footer/sns(28x28)/sns3_twitter.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/2_footer/sns(28x28)/sns4_youtube.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/2_footer/sns(28x28)/sns5_tiktok.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="f_middle">
+            <p>© 2023 Circen. All rights reserved.</p>
+        </div>
+        
 
+        <!-- 탑버튼 -->
+        <button id="btn"><img src="images/up-arrow-angle.png" alt=""></button>
+        <!-- js -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $('#btn').hide();
+            $(window).scroll(function () {
+                var height = $(window).scrollTop();
+                if (height > 100) {
+                    $('#btn').fadeIn()
+                } else {
+                    $('#btn').fadeOut()
+                }
+            });
+            $('#btn').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        </script>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
         <script src="js/script.js"></script>
-    <!-- Initialize Swiper -->
+        <!-- Initialize Swiper -->
 
-    <!-- swiper2 -->
-    <!-- <script>
+        <!-- swiper2 -->
+        <!-- <script>
         var swiper = new Swiper(".mySwiper2", {
             autoHeight: true,
             spaceBetween: 20,
@@ -569,7 +654,8 @@
             },
         });
     </script> -->
-
+        <script src="../js/top_banner.js"></script>
+        <script src="https://kit.fontawesome.com/241c21be21.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
